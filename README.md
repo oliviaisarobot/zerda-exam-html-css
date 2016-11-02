@@ -81,9 +81,9 @@ Add your answer to this readme file, commit your changes to this repository.
 </html>
 ```
 
-> The distance between the yellow box and the top-left corner of the document body is 40px. The body has zero margin, and the blue square's position is set to absolute, which means it is positioned to the top-left corner of the closest parent that is also positioned (in this case, it is the document body itself). The yellow box is inside the blue square, and also absolute positioned. In this case, it means that it is 20px away from the closest positioned parent's top-left corner, which is the blue square. The two positon values add up to 40px.
-
 #### Your answer: [2p]
+
+> The distance between the yellow box and the top-left corner of the document body is 40px. The body has zero margin, and the blue square's position is set to absolute, which means it is positioned to the top-left corner of the closest parent that is also positioned (in this case, it is the document body itself). The yellow box is inside the blue square, and also absolute positioned. In this case, it means that it is 20px away from the closest positioned parent's top-left corner, which is the blue square. The two positon values add up to 40px.
 
 ## 3. Explain concepts (~15 minutes) [4 points]
 Add your answer to this readme file, commit your changes to this repository.
@@ -91,13 +91,13 @@ Add your answer to this readme file, commit your changes to this repository.
 
 ### Explain the difference between `display: block` and `display: inline` in CSS! What is `display: inline-block`?
 
->The "display:block" value is the default behavior of the elements of a CSS. It means that it will always position itself into a separate line, regardless of the surrounding content. The value "display:inline" stands for elements that positon themselves one after the other in the same line, allowing every following inline element to fill the available space. The value "display:inline-block" works much like float did, before the flexbox layout model was introduced. It means that the inline-block element will position itself into a separate line, but allows the surrounding content to flow around it, as if it was a floated element.
-
 #### Your answer: [2p]
+
+>The "display:block" value is the default behavior of the elements of a CSS. It means that it will always position itself into a separate line, regardless of the surrounding content. The value "display:inline" stands for elements that positon themselves one after the other in the same line, allowing every following inline element to fill the available space. The value "display:inline-block" works much like float did, before the flexbox layout model was introduced. It means that the inline-block element will position itself into a separate line, but allows the surrounding content to flow around it, as if it was a floated element.
 
 
 ### What is the difference between a `<section>` and an `<article>` element? Name one good example of using an `<article>`.
 
->The section and the article are both semantic html elements. They both mark a standalone part of the whole content and they typically begin with a heading. The article is more often used for news articles, blog entries and such. The section can either define a larger or a smaller portion than the article, that usually depends on the type of the content. The article can contain a section and a section can contain an article, all that matters is that it is consistently used throughout the html.
-
 #### Your answer: [2p]
+
+>The section and the article are both semantic html elements. They both mark a standalone part of the whole content and they typically begin with a heading. The article is more often used for news articles, blog entries and such. The section can either define a larger or a smaller portion than the article, that usually depends on the type of the content. The article can contain a section and a section can contain an article, all that matters is that it is consistently used throughout the html.
