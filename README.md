@@ -82,6 +82,8 @@ Add your answer to this readme file, commit your changes to this repository.
 ```
 #### Your answer: [2p]
 
+> The distance between the yellow box and the top-left corner of the document body is 40px. The body has zero margin, and the blue square's position is set to absolute, which means it is positioned to the top-left corner of the closest parent that is also positioned (in this case, it is the document body itself). The yellow box is inside the blue square, and also absolute positioned. In this case, it means that it is 20px away from the closest positioned parent's top-left corner, which is the blue square. The two positon values add up to 40px.
+
 
 ## 3. Explain concepts (~15 minutes) [4 points]
 Add your answer to this readme file, commit your changes to this repository.
