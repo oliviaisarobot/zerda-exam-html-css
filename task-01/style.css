@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+}
+
+main {
+  margin: 0 auto;
+  width: 600px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  width: 500px;
+  height: 180px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+article {
+  margin-left: 210px;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.male {
+  background: #fffff0;
+}
+
+.female {
+  background: #abb7e0;
+}
+
+.photo {
+  height: 180px;
+  border-right: 10px solid #556394;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+td:first-child {
+  width: 100px;
+  font-weight: bold;
+}
+
+.edit {
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+}
