@@ -98,6 +98,6 @@ Add your answer to this readme file, commit your changes to this repository.
 
 ### What is the difference between a `<section>` and an `<article>` element? Name one good example of using an `<article>`.
 
->The section and the article are both semantic html elements. They both mark a standalone part of the whole content and they typically begin with a heading. The article is more often used for news articles, blog notes and such. The section can either define a larger or a smaller portion than the article, that usually depends on the type of the content. The article can contain a section and a section can contain an article, all that matters is that it is consistently used throughout the html.
+>The section and the article are both semantic html elements. They both mark a standalone part of the whole content and they typically begin with a heading. The article is more often used for news articles, blog entries and such. The section can either define a larger or a smaller portion than the article, that usually depends on the type of the content. The article can contain a section and a section can contain an article, all that matters is that it is consistently used throughout the html.
 
 #### Your answer: [2p]
